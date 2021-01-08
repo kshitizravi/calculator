@@ -1,4 +1,12 @@
-import { AppRegistry } from 'react-native';
-import App from '../../App';
+import React, {Component} from 'react';
+import {
+    View,
+    Text,
+    TouchableNativeFeedback
+} from 'react-native';
 
-AppRegistry.registerComponent('SimpleCalculator', () => App);
+import styles from './styles';
+
+export default class NumberButtons extends Component {
+
+}
