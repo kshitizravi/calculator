@@ -1,42 +1,28 @@
 const React = require('react-native');
-const {StyleSheet } = React;
+const { StyleSheet } = React;
 
 export default {
-    container: {
-        flex: 1,
-        flexDirection: 'column'
-    },
 
-    contHistory:{
-        flex: 0.3,
-        backgroungColor: 'red'
-    },
+  container: {
+    flex:1,
+  },
 
-    contHistory:{
-        flex: 0.3,
-        backgroungColor: 'red'
-    },
+  txtDefault: {
+    color: '#000',
+    fontFamily: 'Helvetica-Light',
+    fontSize: 20
+  },
 
-    contOutput: {
-        flex: 0.2,
-    },
+  contRow: {
+    flex: 1,
+    flexDirection: 'row'
+  },
 
-    contButtons:{
-        flex: 0.5,
-        backgroungColor: '#bdc3c7'
-    },
-
-    PlaceHolderOutput: {
-        flex: 1,
-        backgroungColor: 'green',
-        justifyContent: 'center',
-        alignItems: 'flex-end',
-        paddingRight: 20
-    },
-
-    txtDefault: {
-        color: '#fff',
-        fontFamily: 'Helvetica-Light',
-        fontSize: 30
-    }
+  contButton: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderWidth: 0.5,
+    borderColor: '#ecf0f1'
+  }
 };
